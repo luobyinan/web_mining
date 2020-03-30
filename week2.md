@@ -1,5 +1,4 @@
 # week2学习笔记
-### nfu.edu.cn搜文学与传媒学院实现跳转
 ```
 payload = {
     "keyword":"文学与传媒学院",
@@ -30,3 +29,7 @@ r.html.xpath('//div[@class="news_title"]/preceding-sibling::font/text()')
 ```
 * preceding-sibling:: 表示获取[兄节点](https://blog.csdn.net/hb5cn/article/details/84937449)
   * 因为最靠近font标签的是下级的div标签，所以用preceding-sibling::表示获取div的兄节点标签font的文本内容，这样避免xpath过长
+```
+df.to_excel("D:/20春_Web数据挖掘_week02_nfu_文学与传媒学院.xlsx", sheet_name="搜查结果")
+```
+* 用pandas输出Excel的方法，df.to_excel("路径＋文件名称.xlsx", sheet_name="搜查结果")
