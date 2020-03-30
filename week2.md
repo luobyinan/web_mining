@@ -1,5 +1,4 @@
 # week2学习笔记
-### nfu.edu.cn搜文学与传媒学院实现跳转
 ```
 payload = {
     "keyword":"文学与传媒学院",
